@@ -1,0 +1,37 @@
+title: Kenny Mercury
+tagline: Music in Memory
+email: 1019studiosteam@gmail.com
+description: >-
+  This memorial site is to remind people of the brother, friend, audio engineer, 
+  and uncle Kendall Meralus.
+url: "https://kenny.meralus.com" # the base hostname & protocol for your site, e.g. http://example.com
+author: 1019 Studios LLC
+twitter:
+  username: techdadteddy
+  card: summary
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate-v2
+# Build settings
+markdown: kramdown
+remote_theme: 
+permalink: /:title.html
+pagination:
+  enabled: true
+  per_page: 4
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+  exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
+  - node_modules
